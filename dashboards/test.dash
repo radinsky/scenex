@@ -1,0 +1,26 @@
+title: Test
+widget_dimensions: [118, 118]
+widget_size: [1, 1]
+widget_margins: [9, 9]
+columns: 8
+global_parameters:
+    use_comma: 0
+    precision: 1
+    use_hass_icon: 1
+
+kodiswitch:
+    widget_type: scenex
+    entity: scene.kodi_switch
+    entity1: scene.atv_switch
+    # icon1: fa-square
+    widget_style: "background-color: #2e4226"
+    icon_style_active: "padding-top: 10px; font-size: 700%"
+    icon_style_inactive: "padding-top: 10px; font-size: 700%"
+    # icon_style_active
+    # icon_style_inactive
+    # title_style
+    # title2_style
+
+
+layout:
+    - kodiswitch(2x2)
